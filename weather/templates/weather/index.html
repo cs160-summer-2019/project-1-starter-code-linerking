@@ -11,24 +11,229 @@
 </head>
 <body>
 
-	<!-- replace this html -->
-	<div class="container">
-		<div class="jumbotron text-light bg-primary">
-			<h1>Congratulations</h1>
-			<p>You've set your environment up correctly!</p>
-		</div>
 
-		<a href="/weather/forecast/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Forecast</a>
-		<a href="/weather/forecast/alert/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Forecast with alert</a>
-		<a href="/weather/comparison/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comparison</a>
-		<a href="/weather/comparison/alert/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comparison with alert</a>
+<!--   phone -->
+	<div class="container" align = "center" id = "phone">
+	<img src = "{%static 'resource/iphone.png'%}" style="height: 600px;">
 	</div>
-	
-	<!-- /replace this html -->
+  
+  
+<!--   background -->
+  <div class="container" align = "center" id = "screen"  >
+    <img src = "{%static 'resource/background.gif'%}" style="height: 550px; width: 255px">
+  </div>
+  
+<!--   round -->
+  <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 320px;
+  left: 2px">
+    <img src = "{%static 'resource/circle.png'%}" style = " height: 150px; width: 150px; ">
+  </div>
+  
+<!--   temperature -->
+  <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 370px;
+  left: 2px">
+  <h1 style = "color: white">
+    30°C
+    </h1>
+  </div>
+  
+  
+  
+<!--   city -->
+  <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 150px;
+  left: 2px">
+  <h1 style = "color: white; font-weight: 900">
+    London
+    </h1>
+  </div>
+  
+<!--   cursor down -->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 330px;
+  left: 2px">
+    <img src = "{%static 'resource/cursor.png'%} " style=" transform: rotate(312.5deg)" >
+  </div>
+
+ <!--   cursor up-->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 305px;
+  left: -43px">
+    <img src = "{%static 'resource/cursor.png'%} " style=" transform: rotate(100deg)" >
+  </div>
+  
+  
+<!--   time -->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 255px;
+  left: 2px">
+  <h4 style = "color: white; font-weight: 100">
+    8:00pm
+    </h4>
+  </div>
+  
+<!--   time from now -->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 275px;
+  left: 2px">
+  <h7 style = "color: white; font-weight: 100">
+    2h from now
+    </h7>
+  </div>
+  
+  <!--   dot -->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 480px;
+  left: -43px">
+    <img src = "{%static 'resource/Dot_gray.png'%} " style="height:6px" >
+  </div>
+<!--   dot -->
+      <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 480px;
+  left: -33px">
+    <img src = "{%static 'resource/Dot_black.png'%} " style="height:10px" >
+  </div>
+  
+  
+    <!--   dot -->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 480px;
+  left: -23px">
+    <img src = "{%static 'resource/Dot_gray.png'%} " style="height:6px" >
+  </div>
+  
+  
+    <!--   dot -->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 480px;
+  left: -13px">
+    <img src = "{%static 'resource/Dot_gray.png'%} " style="height:6px" >
+  </div>
+  
+  
+    <!--   dot -->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 480px;
+  left: -3px">
+    <img src = "{%static 'resource/Dot_gray.png'%} " style="height:6px" >
+  </div>
+  
+  
+    <!--   dot -->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 480px;
+  left: 7px">
+    <img src = "{%static 'resource/Dot_gray.png'%} " style="height:6px" >
+  </div>
+  
+  
+  
+    <!--   dot -->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 480px;
+  left: 17px">
+    <img src = "{%static 'resource/Dot_gray.png'%} " style="height:6px" >
+  </div>
+  
+  
+  
+    <!--   dot -->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 480px;
+  left: 27px">
+    <img src = "{%static 'resource/Dot_gray.png'%} " style="height:6px" >
+  </div>
+  
+  
+    <!--   dot -->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 480px;
+  left: 37px">
+    <img src = "{%static 'resource/Dot_gray.png'%} " style="height:6px" >
+  </div>
+  
+  
+  
+  
+    <!--   dot -->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 480px;
+  left: 47px">
+    <img src = "{%static 'resource/Dot_gray.png'%} " style=" height:6px" >
+  </div>
+  
+  
+  
+  <!--     weather -->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 205px;
+  left: 2px">
+    <img src = "{%static 'resource/tornado.png'%} " style= "height: 50px" >
+  </div>
+  
+  
+  <div class = "container" align = "center" style="position:absolute;
+  overflow:hidden;
+  top: 80px;
+  height:30px">
+    
+   
+  <div class = "row">
+ <!--   Map -->
+      <div class="col-md-3" style="position: absolute; left: 255px" >
+     <a href = "map/" style = "width: 10px; overflow: hidden ">
+    <img src = "{%static 'resource/M.png'%} "  >
+        </a>
+  </div>
+       
+       
+ <!--   list -->
+      <div  class = "col-md-3" style="position: absolute; left: 467px">
+     <a href = "list/">
+    <img src = "{%static 'resource/list.png'%} "  >
+
+     </a>
+  </div> 
+    </div>
+  </div>
+ 
 </body>
 </html>
-
-
-
-
-

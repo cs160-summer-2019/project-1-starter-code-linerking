@@ -1,3 +1,11 @@
-li {
-    color: green;
+#screen { 
+  position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 75px;
+  left: 1.5px
+}
+
+#phone{
+  position:absolute
 }

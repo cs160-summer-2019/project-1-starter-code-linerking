@@ -1,0 +1,63 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comparison - Alert!</title>
+	
+	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+
+</head>
+<body>
+<!--   phone -->
+	<div class="container" align = "center" id = "phone">
+	<img src = "{%static 'resource/iphone.png'%}" style="height: 600px;">
+	</div>
+  
+<a href = "../" style = " overflow: hidden ">  
+<!--   background -->
+  <div class="container" align = "center" id = "screen"  >
+    <img src = "{%static 'resource/background.gif'%}" style="height: 550px; width: 255px">
+  </div>
+  
+  
+  <!--   temperature -->
+  <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 370px;
+  left: 2px">
+  <h1 style = "color: white">
+    30°C
+    </h1>
+  </div>
+  
+  
+  
+<!--   city -->
+  <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 150px;
+  left: 2px">
+  <h1 style = "color: white; font-weight: 900">
+    London
+    </h1>
+  </div>
+  
+  
+    <!--     weather -->
+    <div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 450px; 
+  top: 205px;
+  left: 2px">
+    <img src = "{%static 'resource/tornado.png'%} " style= "height: 150px" >
+  </div>
+  
+  </a>
+  
+  
+</body>
+</html>

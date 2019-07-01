@@ -1,0 +1,50 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comparison</title>
+	
+	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+
+</head>
+<body>
+<!--   phone -->
+	<div class="container" align = "center" id = "phone">
+	<img src = "{%static 'resource/iphone.png'%}" style="height: 600px;">
+	</div>
+  
+  
+<!--   background -->
+  <div class="container" align = "center" id = "screen"  >
+    <img src = "{%static 'resource/background.gif'%}" style="height: 550px; width: 255px">
+  </div>
+</body>
+</html>
+
+
+<!-- back -->
+<div class="container" align = "center" style="position:absolute;
+  overflow:hidden; 
+  height: 30px; 
+  top: 80px;
+  left: -110px">
+    <a href = "../list" style = "width: 10px; overflow: hidden ">
+    <img src = "{%static 'resource/back.png'%} " style = "height: 20px;transform: rotate(180deg)" >
+        </a>
+  </div>
+
+
+
+<img src = "{%static 'resource/search_bar.png'%}" style="position:absolute;left:400px; top:210px; height: 30px; width:160px">
+<img src = "{%static 'resource/search_icon.png'%}" style="position:absolute;left:530px; top:210px; height: 30px; width:30">
+
+
+
+
+
+
+
+
+
